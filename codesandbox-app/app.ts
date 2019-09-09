@@ -6,7 +6,7 @@ app.use(express.urlencoded({ extended: true })); // for parsing application/x-ww
 
 const port = 3000;
 
-const form = `<form action="#" method="post">
+const form = `<form method="post">
 <input type="text" value="whatever" name="batman">
 <button type="submit">Run tests</button>
 </form>`;
